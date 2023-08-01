@@ -5,6 +5,8 @@ The project is a web-based image gallery application that fetches and displays u
 
 The "Anime Scraper" is a web application that provides users with a visually appealing and interactive image gallery featuring anime cover images. The main goal of this project is to fetch, display, and categorize unique anime cover image URLs from specific pages and the home page of an anime website. The application's layout is designed in a Netflix-style grid format, making it visually appealing and easy to navigate for users.
 
+<b><i>Apart from that, i've included a file named as episode-list-demo.php, basically it scrapes all episodes in a specific anime. Give it a try!</i></b>
+
 Features:
 
 1. Web Scraping: The application uses PHP and DOMDocument to fetch and parse the HTML content of the specified pages on the anime website. It extracts anime cover image URLs from elements with the attribute "data-src" containing "https://gogocdn.net/cover/". The process ensures that duplicate URLs are removed, ensuring a unique display of images.
@@ -24,3 +26,7 @@ Features:
 8. Performance and Efficiency: The PHP backend ensures efficient web scraping and processing of image URLs, leading to a smooth user experience and quick loading times.
 
 9. Scalability: The application can be easily extended to fetch and display images from additional pages or categories by modifying the base URLs and implementing relevant filtering logic.
+
+Screenshots:
+<img src="https://i.imgur.com/EEqdfMk.png"/>
+<img src="https://i.imgur.com/tR63SNf.png"/>
